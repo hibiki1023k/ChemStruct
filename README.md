@@ -54,7 +54,7 @@ from rdkit.Chem import Draw
 aspirin = Chem.MolFromSmiles('CC(=O)OC1=CC=CC=C1C(=O)O')
 Draw.MolToFile(aspirin, 'aspirin.png')
 ```
-このファイルを実行して得られた`aspirin.png`は以下のようになります.
+このファイルを実行して得られた`aspirin.png`は以下のようになります.  
 ![aspirin.png](./aspirin.png)
 
 ## あとがき
